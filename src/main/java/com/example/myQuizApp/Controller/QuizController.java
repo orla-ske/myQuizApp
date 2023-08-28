@@ -14,6 +14,6 @@ public class QuizController {
     @PostMapping("create")
     public ResponseEntity<String> createQuiz(@RequestParam String category,@RequestParam int numQ,@RequestParam String title){
         return new ResponseEntity<>("Quiz Successfully created", HttpStatus.OK);
-        //return quizService.
+        //return quizService.createQuiz
     }
 }

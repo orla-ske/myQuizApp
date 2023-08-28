@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.myQuizApp.Question;
 import com.example.myQuizApp.Service.questionService;
+import com.example.myQuizApp.model.Question;
 
 @RestController
 @RequestMapping("question")

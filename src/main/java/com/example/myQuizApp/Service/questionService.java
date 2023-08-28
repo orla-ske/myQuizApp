@@ -9,7 +9,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import com.example.myQuizApp.Dao.QuestionDao;
-import com.example.myQuizApp.Question;
+import com.example.myQuizApp.model.Question;
 
 @Service
 public class questionService {
